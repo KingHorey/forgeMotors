@@ -26,7 +26,7 @@ export function Message(props: { name?: string }): JSX.Element {
             </div>
             <div className="h-full w-[80%] m-auto p-0">
               <img
-                src="/src/assets/ford_bronco_resized.png"
+                src="/public/images/ford_bronco_resized.png"
                 className="w-full h-screen object-cover m-auto object-center relative"
               ></img>
               <div className="relative bottom-20 ml-auto w-fit mr-auto text-slate-50">

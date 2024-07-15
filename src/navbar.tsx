@@ -17,7 +17,7 @@ export function Logo() {
     <li className="ml-auto mr-auto">
       <a href="/" className="text-2xl font-bold">
         <img
-          src="/src/assets/240712_03h01m37s_screenshot.png"
+          src="/public/images/240712_03h01m37s_screenshot.png"
           className="w-44"
           title="Home"
         ></img>

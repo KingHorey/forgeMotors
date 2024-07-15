@@ -49,7 +49,7 @@ export function ProductCatalogue(props: { onClass: boolean }): JSX.Element {
           </svg>
         </div>
         <img
-          src="/src/assets/forge_motors_transparent.png"
+          src="/public/images/forge_motors_transparent.png"
           className="w-44 mr-auto ml-auto top-10"
           title="Home"
         ></img>
@@ -79,7 +79,7 @@ export function ProductCatalogue(props: { onClass: boolean }): JSX.Element {
           </svg>
         </div>
         <img
-          src="/src/assets/forge_motors_transparent.png"
+          src="/public/images/forge_motors_transparent.png"
           className="w-44 mr-auto ml-auto top-10"
           title="Home"
         ></img>
