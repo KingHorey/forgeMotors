@@ -1,4 +1,4 @@
-import { CSSTransition, Transition } from "react-transition-group";
+import { Transition } from "react-transition-group";
 import { useState } from "react";
 
 export default function navBar(): JSX.Element {
