@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .gradient {
+    background-image: linear-gradient(
+      to right bottom,
+      #999999,
+      #707070,
+      #4a4a4a,
+      #272727,
+      #000000
+    );
+  }
+
+  .orbitron {
+    font-family: "Orbitron", sans-serif;
+  }
+
+  .dm__serif {
+    font-family: "DM Serif Display", serif;
+  }
+
+  .glassy {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .sidebar {
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  .visible_bar {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .slideLeft {
+    width: 0;
+  }
+
+  .slideLeft-enter {
+    width: 0;
+  }
+
+  .slideLeft-enter-active {
+    width: 40vw;
+    transition: width 0.3s ease-in-out;
+  }
+
+  .slideLeft-exit {
+    width: 40vw;
+  }
+
+  .slideLeft-exit-active {
+    width: 40vw;
+    transition: width 0.3s ease-in-out;
+  }
+}
