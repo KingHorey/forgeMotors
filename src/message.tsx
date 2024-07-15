@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { LargeButton, ProductToggle, ProductCatalogue } from "./buttons";
-import { CSSTransition } from "react-transition-group";
 
 export function Message(props: { name?: string }): JSX.Element {
   const [_, showCatalogue] = useState(false);
